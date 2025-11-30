@@ -1,0 +1,10 @@
+*.png
+*.pyc
+/__pycache__
+/.vscode
+/models
+/venv
+/output
+
+# DEV
+/input_example
