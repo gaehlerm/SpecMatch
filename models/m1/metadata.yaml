@@ -1,0 +1,18 @@
+substance_colors:
+  Polyethylene: '#FF0000'
+  Polypropylene: '#00FF00'
+  Polystyrene: '#0000FF'
+  PET: '#FFFF00'
+  Noise: '#000000'
+substance_to_idx:
+  Polyethylene: 0
+  Polypropylene: 1
+  Polystyrene: 2
+  PET: 3
+  Noise: 4
+idx_to_substance:
+  0: Polyethylene
+  1: Polypropylene
+  2: Polystyrene
+  3: PET
+  4: Noise
