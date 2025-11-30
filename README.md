@@ -54,17 +54,6 @@ Install all required libraries using the requirements.txt file:
 pip install -r requirements.txt
 ```
 
-This will install the following packages:
-- **PyQt5**: GUI framework
-- **opencv-python**: Image processing
-- **numpy**: Numerical computations
-- **pyyaml**: YAML file parsing
-- **matplotlib**: Plotting and visualization
-- **pandas**: Data manipulation
-- **onnxruntime**: ONNX model inference
-- **scikit-learn**: Machine learning utilities (PCA)
-- **spectral**: Hyperspectral image processing
-
 ## Project Structure
 
 ```
@@ -104,7 +93,12 @@ The `metadata.yaml` file should contain:
 Once dependencies are installed, run the application with:
 
 ```bash
-python main.py
+python map_chemicals.py --folder /path/to/data/folder
+```
+
+For agilent data, add the --Agilent flag to the command above, i.e.
+```bash
+python map_chemicals.py --folder /path/to/data/folder --Agilent
 ```
 
 ### Basic Workflow
