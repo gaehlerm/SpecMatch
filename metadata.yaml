@@ -1,0 +1,42 @@
+idx_to_substance:
+  0: PE_surrogate
+  1: PA
+  2: Cellulose
+  3: PET
+  4: PMMA
+  5: SiO2
+  6: PMMA_PVC
+  7: noise
+  8: PS
+  9: LDPE
+  10: PP
+  11: UPVC
+  12: PLA
+substance_colors:
+  Cellulose: '#9acd32'
+  LDPE: '#ffa500'
+  PA: '#ffff00'
+  PET: '#0000ff'
+  PE_surrogate: '#ff0000'
+  PLA: '#7f007f'
+  PMMA: '#40e0d0'
+  PMMA_PVC: '#b03060'
+  PP: '#7fff00'
+  PS: '#ff00ff'
+  SiO2: '#d2691e'
+  UPVC: '#ffc0cb'
+  noise: '#000000'
+substance_to_idx:
+  Cellulose: 2
+  LDPE: 9
+  PA: 1
+  PET: 3
+  PE_surrogate: 0
+  PLA: 12
+  PMMA: 4
+  PMMA_PVC: 6
+  PP: 10
+  PS: 8
+  SiO2: 5
+  UPVC: 11
+  noise: 7

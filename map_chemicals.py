@@ -17,7 +17,7 @@ from utils import enviread, hex_to_rgb
 import onnxruntime as ort
 
 # Default model folder
-MODEL_FOLDER = ".."
+MODEL_FOLDER = "."
 
 # Example data folder paths (for reference)
 EXAMPLE_DATA_FOLDERS = {
